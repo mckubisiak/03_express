@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS goals;
+
+CREATE TABLE goals (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    description TEXT NOT NULL,
+    acheieved BOOLEAN NOT NULL,
+    discover DATE
+);
