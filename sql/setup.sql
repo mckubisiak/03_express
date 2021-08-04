@@ -4,5 +4,5 @@ CREATE TABLE goals (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     description TEXT NOT NULL,
     achieved BOOLEAN NOT NULL,
-    discovery DATE
+    discovery TEXT
 );
